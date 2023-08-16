@@ -1,0 +1,26 @@
+.reviews {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.reviews .under_title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviews_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .reviews_box{
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+}
