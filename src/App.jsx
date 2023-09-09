@@ -1,4 +1,4 @@
-import { About, Book, Content, Cooking, Footer, Header, Member, Menu, Special } from "./Layout";
+import { About, Blogs, Book, Content, Cooking, Footer, Header, Member, Menu, Special } from "./Layout";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Book/>
       <Cooking/>
       <Member/>
-      <div style={{height:"50px"}}></div>
+      <Blogs/>
       <Content/>
       <Footer/>
     </>
