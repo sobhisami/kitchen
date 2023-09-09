@@ -1,0 +1,38 @@
+.members{
+  background: rgba(16, 20, 24, 0.70);
+}
+.member{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+.member div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+.member div article{
+  display: flex;
+  flex-direction: column;
+}
+.member div article span:first-of-type{
+  color: #FFCE6D;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 117.3%; /* 56.304px */
+  text-transform: capitalize;
+}
+.member div article span:last-of-type{
+  color: #FFFFFC;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+.member div img{
+  height: 60px;
+  object-fit: cover;
+}

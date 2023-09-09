@@ -1,0 +1,61 @@
+header{
+  background-image:
+  linear-gradient(rgba(16, 20, 24, 0), rgba(16, 20, 24, 1)), url(../../../public/images/header.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+header ul{
+  display: flex;
+  background: #101418;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 80%;
+  top: 120px;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: #FFC;
+  font-size: 18px;
+  font-weight: 700;
+}
+header ul li a:hover{
+  color:#fff ;
+}
+header ul li .logoHeader,ul li a img{
+  width: 100%;
+  object-fit: contain;
+  height: 60px;
+}
+.header-bottom{
+  color: #FFFCCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 300px;
+  text-align: center;
+}
+.header-bottom p{
+font-size: 45px;
+font-weight: 700;
+}
+.header-bottom span{
+font-size: 18px;
+font-weight: 700;
+line-height: 117.3%;
+padding: 18px 0;
+}
+
+@media (max-width:600px) {
+  ul li{
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+
+.book{
+  background: var(--background);
+}
+.Booked{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Booked img{
+  height: 220px;
+  object-fit: cover;
+}
+.Booked article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Booked article span{
+  color: #FFCE6D;
+  font-size: 32px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+@media (max-width:600px) {
+  .Booked{
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  }
+}

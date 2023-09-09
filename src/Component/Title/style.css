@@ -1,0 +1,10 @@
+.title-yal,.title-wight{
+  color: #FFCE6D;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 117.3%; 
+}
+.title-wight{
+  color: #FFFFFC !important;
+}
