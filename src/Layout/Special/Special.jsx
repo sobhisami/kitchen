@@ -1,8 +1,9 @@
-import Container from '../Container/Container'
+import {Title,Container} from '../../Component'
 import Cart from './Cart'
-import './style.css'
 import data from '../../mock/data'
-import Title from '../Title/Title'
+import './style.css'
+
+
 const Special = () => {
   return (
     <div className='special'>

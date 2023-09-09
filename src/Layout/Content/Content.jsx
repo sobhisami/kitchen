@@ -1,5 +1,4 @@
-import Container from "../Container/Container"
-import Button from "../Button/Button"
+import {Button,Container} from '../../Component'
 import './style.css'
 const Content = () => {
   return (

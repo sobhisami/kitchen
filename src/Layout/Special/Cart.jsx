@@ -1,5 +1,4 @@
-import Container from "../Container/Container"
-
+import {Container} from '../../Component'
 const Cart = ({src,title,description}) => {
   return (
     <div className="cart">

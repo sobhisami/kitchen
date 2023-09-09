@@ -1,4 +1,4 @@
-import { About, Book, Content, Cooking, Footer, Header, Member, Menu, Special } from "./Component";
+import { About, Book, Content, Cooking, Footer, Header, Member, Menu, Special } from "./Layout";
 
 function App() {
   return (

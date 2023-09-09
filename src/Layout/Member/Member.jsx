@@ -1,6 +1,7 @@
-import Container from '../Container/Container'
-import './style.css'
+import {Container} from '../../Component'
 import {member} from '../../mock/members.js'
+import './style.css'
+
 const Member = () => {
   return (
     <div className='members'>

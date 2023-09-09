@@ -1,6 +1,4 @@
-import Button from "../Button/Button"
-import Container from "../Container/Container"
-import Title from "../Title/Title"
+import {Title,Button,Container} from '../../Component'
 import './style.css'
 const Book = () => {
   return (

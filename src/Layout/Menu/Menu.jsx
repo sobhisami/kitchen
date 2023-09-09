@@ -1,8 +1,8 @@
-import Container from '../Container/Container'
-import Title from '../Title/Title'
-import './style.css'
+import {Title,Container} from '../../Component'
 import { menuOne,menuTwo } from '../../mock/menu'
 import Item from './Item'
+import './style.css'
+
 const Menu = () => {
   return (
     <div>

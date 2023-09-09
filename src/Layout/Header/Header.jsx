@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import {Button,Container} from '../../Component'
 import './stye.css'
-import Container from '../Container/Container'
-import Button from '../Button/Button'
+
 
 
 export default class Header extends Component {
